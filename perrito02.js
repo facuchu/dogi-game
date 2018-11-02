@@ -82,7 +82,7 @@ var start = new Date().getTime();
 			
 			var tiempoTomado = (end - start) / 1000;
 			
-			document.querySelector("#tiempoTomado").innerHTML = tiempoTomado + "s";
+			document.querySelector("#tiempoTomado").innerHTML = tiempoTomado + "s!";
 
 			aparecerFormaDespues();
 
